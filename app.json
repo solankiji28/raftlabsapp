@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "raftlabsapp",
-    "slug": "raftlabsapp",
+    "slug": "raftlabs",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -19,10 +19,17 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.viveksolanki.raftlabs"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "fe8e01c6-9309-4bce-8093-ff90bd39361f"
+      }
+    },
+    "owner": "vivek-solanki"
   }
 }
